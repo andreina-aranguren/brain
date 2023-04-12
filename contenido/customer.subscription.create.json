@@ -1,0 +1,16 @@
+{
+  "email": {
+    "subject": "⭐️ Bienvenido a Premium! ⭐️ "
+  },
+  "template": {
+    "email": "customer.subscription.created"
+  },
+  "buttons": [
+    {
+      "buttonText": "Ver Mi Cuenta",
+      "buttonHref": "https://micuenta.inglesconliza.com/"
+    }
+  ],
+  "contents": "<h1 id=\"hola-customername\">Hola {{customer.name}}</h1>\n<p>Gracias por ser valiente y tomar acción para lograr una meta más.</p>\n<p>A partir de este momento comenzarás a recibir clases diarias de Inglés directo en tu correo electróinco {{customer.email}}.</p>\n<p>Si tienes alguna o algun problema duda solo responde a este correo.</p>\n",
+  "text": "<p>Gracias por ser valiente y tomar acci&#xF3;n para lograr una meta m&#xE1;s.</p>"
+}
