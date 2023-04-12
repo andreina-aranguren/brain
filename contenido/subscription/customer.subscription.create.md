@@ -1,7 +1,8 @@
 ---
 email:
   subject: "⭐️ Bienvenido a Premium! ⭐️ "
-  template: "customer.subscription.create"
+template: 
+  email: "customer.subscription.create"
 buttonText: "Ver Mi Cuenta"
 buttonHref: "https://micuenta.inglesconliza.com/"
 ---
