@@ -1,6 +1,7 @@
 ---
-template: "customer.subscription.create"
-subject: "⭐️ Bienvenido a Premium! ⭐️ "
+email:
+  subject: "⭐️ Bienvenido a Premium! ⭐️ "
+  template: "customer.subscription.create"
 buttonText: "Ver Mi Cuenta"
 buttonHref: "https://micuenta.inglesconliza.com/"
 ---
