@@ -34,5 +34,21 @@ jobs:
       - name: Generate JSON files
         run: node src/generate.js
 
-      - name: Render HTML email templates
+      - name: SYNC TO S3
         run: aws s3 sync jsonOutput/ s3://$S3_BUCKET_NAME/brain/contenido/ --delete
+
+      - name: "Set up Ruby"
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.0"
+          bundler-cache: true
+
+      - name: Install bootstrap-email gem
+        run: gem install bootstrap-email
+
+      - name: Render HTML email templates
+        run: bootstrap-email -p 'templates/email/*' -d 'templates/email/compiled/*'
+
+      - name: SYNC TO S3
+        run: aws s3 sync templates/email/compiled/ s3://$S3_BUCKET_NAME/templates/email/
+        
