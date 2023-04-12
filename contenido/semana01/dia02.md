@@ -1,3 +1,15 @@
+---
+email:
+  subject: "Hola! Segundo dia de clase!"
+  from: "InglesConLiza <laclasedehoy@inglesconliza.com>"
+template:
+  email: "correo.diario"
+buttons:
+  - buttonText: "Escuchar Audio de Hoy"
+    buttonHref: "https://audios.inglesconliza.com/semana01/dia01.mp3"
+footer: "InglesConLiza.com"
+---
+
 Hi! 🤩
 How are you doing? 😊
 
@@ -13,5 +25,5 @@ Si te sientes como si no pudieras continuar, trata de explicar tus ideas con pal
 
 Practica regularmente 👨‍👩‍👧‍👦 La práctica es clave para mejorar tu habla en inglés. Busca oportunidades para hablar el idioma con otras personas, incluso si solo puedes decir unas pocas palabras. También puedes practicar hablando solo o grabándote para analizar tu pronunciación y encontrar áreas que necesiten mejora.
 
-✅Recuerda que hablar inglés con fluidez lleva tiempo y paciencia, pero con esfuerzo y práctica constante, podrás mejorar tu habilidad y sentirte más seguro al comunicarte en este idioma tan genial.
+✅ Recuerda que hablar inglés con fluidez lleva tiempo y paciencia, pero con esfuerzo y práctica constante, podrás mejorar tu habilidad y sentirte más seguro al comunicarte en este idioma tan genial.
 Cheer up and don’t give up! 🤩🤩🤩
