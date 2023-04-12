@@ -3,7 +3,7 @@ email:
   subject: "⭐️ Bienvenido a Premium! ⭐️ "
   from: "Liza <liza@inglesconliza.com>"
 template:
-  email: "customer.subscription.create"
+  email: "customer.subscription.created"
 buttons:
   - buttonText: "Mi Cuenta"
     buttonHref: "https://micuenta.inglesconliza.com/"
