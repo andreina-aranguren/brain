@@ -31,9 +31,13 @@ async function outputJson(files, metalsmith, done) {
   createFolder(`${outputFolder}`);
 
   for (let file in files) {
-    files[file].contents = files[file].contents.toString("utf8");
+    files[file].html = files[file].contents.toString("utf8");
+    files[file].text = files[file].excerpt
+    delete files[file].contents;
+    delete files[file].excerpt;
     delete files[file].stats;
     delete files[file].mode;
+    
     console.log(">> ", file);
     // console.log(JSON.stringify(files[file], null, 2));
 
