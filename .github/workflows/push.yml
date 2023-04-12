@@ -35,4 +35,4 @@ jobs:
         run: node src/generate.js
 
       - name: Render HTML email templates
-        run: aws s3 sync jsonOutput/ s3://$S3_BUCKET_NAME/brain/contenido/
+        run: aws s3 sync jsonOutput/ s3://$S3_BUCKET_NAME/brain/contenido/ --delete
