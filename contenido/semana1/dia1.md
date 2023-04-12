@@ -1,3 +1,14 @@
+---
+section: Elements
+title: buttons
+device:
+- desktop
+- mobile
+styles:
+- https://lalao.com/styles/structure.min.css
+- https://lalao.com/styles/app.min.css
+---
+
 Hi! 🤩
 
 Bienvenido/a a la comunidad de estudio de Inglés con Liza 🙂

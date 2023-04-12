@@ -1,0 +1,38 @@
+name: Update
+
+on: push
+
+env:
+  COMMIT_SHA: "${{ github.sha }}"
+  GIT_REF: "${{ github.ref }}"
+  LOG_LEVEL: "WARN"
+  S3_BUCKET_NAME: "inglesconliza.com"
+
+jobs:
+  deploy:
+    name: "Generate JSON and Sync to S3"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+
+      - uses: actions/cache@v1
+        id: node-modules-cache
+        with:
+          key: /src/node_modules-${{ hashFiles('**/yarn.lock') }}
+          path: /src/node_modules
+
+      - name: Install node_modules
+        if: steps.node-modules-cache.outputs.cache-hit != 'true'
+        run: cd src ; yarn install
+
+      - name: Generate JSON files
+        run: node src/generate.js
+
+      - name: Render HTML email templates
+        run: aws s3 sync jsonOutput/ s3://$S3_BUCKET_NAME/brain/contenido/
