@@ -1,14 +1,3 @@
----
-email:
-  subject: "⭐️ Bienvenido a Premium! ⭐️ "
-  from: "Liza <liza@inglesconliza.com>"
-template:
-  email: "customer.subscription.created"
-buttons:
-  - buttonText: "Mi Cuenta"
-    buttonHref: "https://micuenta.inglesconliza.com/"
-footer: "www.InglesConLiza.com"
----
 # Hola {{customer.name}}!
 
 _Gracias por ser valiente y tomar acción para lograr una meta más_.
