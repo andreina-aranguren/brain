@@ -7,10 +7,9 @@ template:
 buttons:
   - buttonText: "Mi Cuenta"
     buttonHref: "https://micuenta.inglesconliza.com/"
-footer: "InglesConLiza.com"
+footer: "www.InglesConLiza.com"
 ---
-
-# Hola {{customer.name}}
+# Hola {{customer.name}}!
 
 Gracias por ser valiente y tomar acción para lograr una meta más.
 
