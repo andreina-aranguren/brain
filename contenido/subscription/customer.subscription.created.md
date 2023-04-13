@@ -6,7 +6,9 @@ template:
   email: "customer.subscription.created"
 buttons:
   - buttonText: "Mi Cuenta"
-    buttonHref: "https://micuenta.inglesconliza.com/"
+    buttonLink: "https://micuenta.inglesconliza.com/"
+  - buttonText: "Cancelar suscripción"
+    buttonLink: "https://micuenta.inglesconliza.com/unsubscribe"
 footer: "www.InglesConLiza.com"
 
 ---
