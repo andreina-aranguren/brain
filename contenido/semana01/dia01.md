@@ -1,33 +1,33 @@
 ---
 email:
   subject: "¡Primer dia de clase!"
-  from: "InglesConLiza <laclasedehoy@inglesconliza.com>"
+  from: "liza@inglesconliza.com"
 template:
   email: "correo.diario"
 buttons:
   - buttonText: "Escuchar Audio de Hoy"
     buttonHref: "https://audios.inglesconliza.com/semana01/dia01.mp3"
 footer: "InglesConLiza.com"
----
 
+---
 Hi! 🤩
 
-Bienvenido/a a la comunidad de estudio de Inglés con Liza 🙂
+Bienvenido/a a la comunidád de estudio de Inglés con Liza 🙂
 
 Let’s start studying the Verb To Be, shall we?
 
 Empecemos a estudiar el verbo ser o estar, ¿sí?
 
-➡️*Verb To Be*
- 
-✅I am Liza. / _Yo soy Liza._
+➡️ _**_Verb To Be_**_
 
-✅You are my student. / _Tú eres mi estudiante._
+✅ I am Liza. / _Yo soy Liza._
 
-✅He is a friend. /_Él es un amigo._
+✅ You are my student. / _Tú eres mi estudiante._
 
-✅She is my mom. / _Ella es mi mamá._
+✅ He is a friend. / _Él es un amigo._
 
-✅We are happy. / _Nosotros somos felices._
+✅ She is my mom. / _Ella es mi mamá._
 
-✅They are Italian. / _Ellos son italianos._
+✅ We are happy. / _Nosotros somos felices._
+
+✅ They are Italian. / _Ellos son italianos._
