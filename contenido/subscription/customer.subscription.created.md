@@ -9,10 +9,13 @@ buttons:
   - buttonText: "Mi Cuenta"
     buttonHref: "https://micuenta.inglesconliza.com/"
 footer: "www.InglesConLiza.com"
+
 ---
 # Hola {{customer.name}}!
 
-_Gracias por ser valiente y tomar acción para lograr una meta más_.
+_Gracias por ser **valiente** y tomar acción para lograr una meta más_.
+
+> La clave está en la práctica
 
 A partir de este momento comenzarás a recibir clases diarias de Inglés directo en tu correo electrónico: {{customer.email}}.
 
