@@ -9,6 +9,7 @@ buttons:
     buttonHref: "https://audios.inglesconliza.com/semana01/dia01.mp3"
 footer: "InglesConLiza.com"
 
+
 ---
 Hi! 🤩
 
@@ -18,7 +19,7 @@ Let’s start studying the Verb To Be, shall we?
 
 Empecemos a estudiar el verbo ser o estar, ¿sí?
 
-➡️ _**_Verb To Be_**_
+➡️ _**Verb To Be**_
 
 ✅ I am Liza. / _Yo soy Liza._
 
