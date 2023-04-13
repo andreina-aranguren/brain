@@ -10,6 +10,7 @@ buttons:
     buttonHref: "https://micuenta.inglesconliza.com/"
 footer: "www.InglesConLiza.com"
 
+
 ---
 # Hola {{customer.name}}!
 
@@ -21,4 +22,4 @@ A partir de este momento comenzarás a recibir clases diarias de Inglés directo
 
 Si tienes alguna o algún problema duda solo responde a este correo con lo que quieras saber y con gusto te responderemos a la brevedad posible.
 
-Para ver tu cuenta haz click aquí:
+Para ver tu cuenta haz click [aquí](https://inglesconliza.com/):
