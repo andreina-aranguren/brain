@@ -19,7 +19,7 @@ Let’s start studying the Verb To Be, shall we?
 
 Empecemos a estudiar el verbo ser o estar, ¿sí?
 
-➡️ _**Verb To Be**_
+➡️ _**Verb To Be...**_
 
 ✅ I am Liza. / _Yo soy Liza._
 
