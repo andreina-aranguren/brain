@@ -1,6 +1,9 @@
 name: Update
 
-on: push
+on: 
+  push:
+    branches:
+      - main
 
 env:
   COMMIT_SHA: "${{ github.sha }}"
